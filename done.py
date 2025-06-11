@@ -4,7 +4,7 @@ from PIL import Image
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import os
-import pyperclip  # To copy text to clipboard
+import pyperclip  
 
 # Ensure Tesseract is properly configured
 pytesseract.pytesseract.tesseract_cmd = r'/usr/local/bin/tesseract'  # Adjust for your system path
